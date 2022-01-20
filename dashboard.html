@@ -20,7 +20,8 @@
     <body>
         <div id="appication" class="dashboard min-vh-100">
             <header class="dash-header">
-                <nav class="navbar navbar-expand-sm bg-white navbar-light py-3"> <a class="navbar-brand" href="/"><i class="fas fa-arrow-circle-left text-muted-2"></i></a>
+                <nav class="navbar navbar-expand-sm bg-white navbar-light py-3"> <a class="navbar-brand" href="/">
+                   </a>
                     <ul
                     class="navbar-nav ml-auto">
                         <li class="nav-item my-auto px-2 px-md-4 ">
@@ -28,14 +29,14 @@
                                 <div class="d-flex align-items-center"> <a href="#" class="d-block text-decoration-none text-muted notification-container"
                                     data-toggle="dropdown" aria-expanded="false">
 
-                            <i class="fas fa-bell"></i>
+                         
 
                             <div class="number-container d-flex align-items-center justify-content-center">1</div>
 
                         </a>
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <button class="dropdown-item" type="button">Olá</button>
+                                    <button class="dropdown-item text-"   type="button">Olá</button>
                                 </div>
                             </div>
                         </li>
@@ -61,8 +62,11 @@
                             </button>
                         </li>
                         </ul>
-                        <div id="navbarNavDropdown" class="collapse menu-mobile navbar-collapse mt-3">
+                        <div id="navbarNavDropdown" class="collapse menu-mobile navbar-collapse mt-3" >
+                            
+                            <div class="m d-flex justify-content-end flex-column align-items-end">
                             <ul class="navbar-nav mx-auto d-block">
+        
                                 <li class="nav-item active"> <a href="#" class="nav-link">
 
                         <i class="fa fa-user px-2"></i> Encarregado
@@ -83,30 +87,28 @@
                                 </li>
                             </ul>
                         </div>
+                        </div>
                 </nav>
             </header>
             <aside class="aside min-vh-100 fixed-top bg-white ">
                 <div class="brand p-3"> <a href="/dashboard.html"><img src="assets/img/logo.svg" alt="Logotipo"></a>
                 </div>
                 <ul class="nav flex-column pr-3 w-100">
-                    <li class="nav-item active"> <a href="#" class="nav-link">
 
-                <i class="fa fa-user px-2"></i> Encarregado
-
-            </a>
-                    </li>
-                    <li class="nav-item"> <a href="#" class="nav-link">
-
-                <i class="far fa-edit px-2"></i> Cadastrar Alunos
-
-            </a>
-                    </li>
-                    <li class="nav-item"> <a href="#" class="nav-link">
-
-                <i class="far fa-copy px-2"></i> Lista Educados
-
-            </a>
-                    </li>
+                    <div class="dropdown mb-3">
+                        <button type="button"  data-target="#DropdownMenuButton"
+                        class="navbar-toggler btn btn-sm px-3 border-secondary rounded-pill dropdown-toggle"
+                     id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <i class="fa fa-user px-2"></i> Encarregado</button>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
+<a class="dropdown-item" href="#"><i class="far fa-edit px-2"></i> Cadastrar Alunos</a>
+                            <a
+                            class="dropdown-item" href="#">    <i class="far fa-copy px-2"></i> Lista Educados</a>
+                        </div>
+                    </div>
+                  
                 </ul>
             </aside>
             <div class="page-wrapper p-2 p-md-5">
