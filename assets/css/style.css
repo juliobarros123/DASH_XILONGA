@@ -551,6 +551,11 @@ body {
           .text-secondary{
             font-size: 9px;
           }
+
+
+          .table{
+            width: 100%;
+          }
           /*.cartao{
             width: 100%;
           }
@@ -558,6 +563,21 @@ body {
         }
         .dropdown-menu{
           border: none;
+        }
+
+        .table {
+          box-shadow: 0px 25px 30px #00000015;
+          background: #FFFFFF;
+        }
+        .thead{
+          background: #3055A5;
+          color: #fff;
+          
+      
+        }
+
+        .tbody{
+          color:#919191;
         }
 
         
